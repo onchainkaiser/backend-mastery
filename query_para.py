@@ -20,11 +20,11 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-app.get("/items/")
+@app.get("/items/")
 async def get_items(skip: int = 0, limit: int = 10):
   return {"skip": skip, "limit": limit}
 
-app.get("/items/{item_id}")
+@app.get("/items/{item_id}")
 async def get_item(item_id: str, q: str | None = None):
   return {"item_id": item_id, "q": q}
 
