@@ -1,35 +1,35 @@
-# print("A")
-# print("B")
-# print("c")
+print("A")
+print("B")
+print("c")
 
-# balance = 1000
-# balance = 2900
-# print(balance)
+balance = 1000
+balance = 2900
+print(balance)
 
-# a = 10
-# b = a
-# a = 20
-# print(b)
+a = 10
+b = a
+a = 20
+print(b)
 
-# x = True
-# print(type(x))
+x = True
+print(type(x))
 
-# first = "hello"
-# second = "world"
-# print(first +" "+ second)
+first = "hello"
+second = "world"
+print(first +" "+ second)
 
-# first = "Hello"
-# second = "my name is david"
-# third = "and"
-# fourth = "i am learning python"
-# fifth = " "
-# print(first+fifth+second+fifth+third+fifth+fourth)
+first = "Hello"
+second = "my name is david"
+third = "and"
+fourth = "i am learning python"
+fifth = " "
+print(first+fifth+second+fifth+third+fifth+fourth)
 
-# name = input("Enter your Name: ")
-# print(name)
+name = input("Enter your Name: ")
+print(name)
 
-# ATM = input("Enter your balance: ")
-# print(ATM)
+ATM = input("Enter your balance: ")
+print(ATM)
 
 # This takes in the name of the user
 name = input("Enter your name: ")
